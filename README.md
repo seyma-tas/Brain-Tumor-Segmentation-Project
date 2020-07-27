@@ -52,6 +52,16 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
  
  # Result: 
  
+### A random example from the results:
+ 
+ 
+ 
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result1.png" width="600">
+
+ 
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result2.png" width="900">
+ 
+ ### Dice accuracy values of each class:
  
  
 <img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/dice.png" width="600">
@@ -59,15 +69,15 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
  
  
  
- 
+### Changes of BCE Dice Loss and Dice Accuracies during training.
+
+
 <img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/history.png" width="700">
 
 
 
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result1.png" width="700">
 
 
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result2.png" width="700">
  
  
  
