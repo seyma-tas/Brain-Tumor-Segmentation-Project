@@ -78,7 +78,9 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
 
 
 
+ # Conclusion:
  
+ Brain Tumor MRI segmentation is very useful for health care workers. It may automatize and fasten the diagnosis process and save lives. Better results can be obtained by increasing the size of the dataset and regularizations.
  
  
  
