@@ -54,7 +54,7 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
  
  
  
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/dice.png" width="500">
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/dice.png" width="600">
  
  
  
@@ -64,10 +64,10 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
 
 
 
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result1.png" width="400">
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result1.png" width="700">
 
 
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result2.png" width="400">
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result2.png" width="700">
  
  
  
