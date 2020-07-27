@@ -29,6 +29,8 @@ cjdata.tumorMask: a binary image with 1s indicating tumor region
 These 15 images have different size than others. (955, 956, 957, 1070, 1071, 1072, 1073, 1074, 1075 ,1076, 1203, 1204, 1205, 1206, 1207) It is necessary to omit them or find a way to handle tensor size problem. In one model I didn't use them, in the other one I read the data as numpy arrays and arranged the shapes of the arrays. 
 
 # Method:
+![brain tumor heatmap](https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor1.png)
+
 
  In this project I am making classification and tumor mask with transfer learning in Pytorch. 
  
