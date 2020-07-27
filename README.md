@@ -33,7 +33,7 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
 
 <brain tuomr heatmap src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor1.png" alt="drawing" width="200"/>
 
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor1.png" width="200">
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor1.png" width="300">
 
 
  In this project I am making classification and tumor mask with transfer learning in Pytorch. 
