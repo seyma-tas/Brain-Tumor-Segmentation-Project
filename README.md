@@ -6,9 +6,11 @@
  
  Source of the dataset: https://figshare.com/articles/brain_tumor_dataset/1512427
  
- About the dataset: This brain tumor dataset containing 3064 T1
-from 233 patients with three kinds of brain tumor: Meningioma (708 slices), 
-Glioma (1426 slices), and pituitary tumor (930 slices). 
+ About the dataset: This brain tumor dataset containing 3064 T1 MRIs
+from 233 patients with three kinds of brain tumor: 
+Meningioma (708 slices), 
+Glioma (1426 slices), 
+Pituitary tumor (930 slices). 
 
 This data is organized in matlab data format (.mat file). Each file stores a struct
 containing the following fields for an image:
@@ -24,32 +26,48 @@ cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor
 
 cjdata.tumorMask: a binary image with 1s indicating tumor region
 
+Here is one example of the cjdata.image.
+
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor1.png" width="400">
+
+This is the manually drawn mask for the same image.(cjdata.mask)
+
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor2.png" width="400">
+
+
 ### Note: 
 
 These 15 images have different size than others. (955, 956, 957, 1070, 1071, 1072, 1073, 1074, 1075 ,1076, 1203, 1204, 1205, 1206, 1207) It is necessary to omit them or find a way to handle tensor size problem. In one model I didn't use them, in the other one I read the data as numpy arrays and arranged the shapes of the arrays. 
 
+
 # Method:
-
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/tumor1.png" width="300">
-
 
  In this project I am making classification and tumor mask with transfer learning in Pytorch. 
  
- In one model, I used both the structure and weights from imagenet ResNext(resnext50_32x4d). 
+ In the first model, I used both the structure and weights from imagenet ResNext(resnext50_32x4d). 
  
  In the second one, I used a pre-trained model Models Genesis from Arizona State University. The important point in this model is training is done on health images.(X-rays, magnetic resonance images(MRI), and Computed tomography(CT)). 
  
- For more detailed information  https://github.com/MrGiovanni/ModelsGenesis
+ For more detailed information about Models Genesis  https://github.com/MrGiovanni/ModelsGenesis
  
  # Result: 
  
  
  
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/dice.png" width="500">
  
  
  
  
  
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/history.png" width="700">
+
+
+
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result1.png" width="400">
+
+
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/result2.png" width="400">
  
  
  
