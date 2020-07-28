@@ -72,7 +72,7 @@ These 15 images have different size than others. (955, 956, 957, 1070, 1071, 107
 ### Changes of BCE Dice Loss and Dice Accuracies during training.
 
 
-<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/history.png" width="700">
+<img src="https://github.com/seyma-tas/Brain-Tumor-Segmentation-Project/blob/master/history.png" width="900">
 
 
 
